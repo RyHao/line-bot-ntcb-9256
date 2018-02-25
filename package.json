@@ -23,6 +23,7 @@
   },
   "scripts": {
     "start": "egg-scripts start --daemon --title=egg-server-line-bot-ntcb-9256",
+    "start:docker": "egg-scripts start --title=egg-server-line-bot-ntcb-9256",
     "stop": "egg-scripts stop --title=egg-server-line-bot-ntcb-9256",
     "dev": "egg-bin dev",
     "debug": "egg-bin debug",
