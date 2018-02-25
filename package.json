@@ -22,8 +22,6 @@
     "node": ">=8.9.0"
   },
   "scripts": {
-    "prestart": "npm install",
-    "prestart:docker": "npm install",
     "start": "egg-scripts start --daemon --title=egg-server-line-bot-ntcb-9256",
     "start:docker": "egg-scripts start --title=egg-server-line-bot-ntcb-9256",
     "stop": "egg-scripts stop --title=egg-server-line-bot-ntcb-9256",

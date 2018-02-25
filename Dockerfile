@@ -9,6 +9,12 @@ RUN mkdir -p /usr/src/app
 
 WORKDIR /usr/src/app
 
+# add npm package
+COPY package.json /usr/src/app/package.json
+
+# install node modules
+RUN npm install
+
 # copy code
 COPY . /usr/src/app
 
