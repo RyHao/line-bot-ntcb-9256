@@ -13,7 +13,7 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/package.json
 
 # install node modules
-RUN npm install
+RUN npm install --production
 
 # copy code
 COPY . /usr/src/app
